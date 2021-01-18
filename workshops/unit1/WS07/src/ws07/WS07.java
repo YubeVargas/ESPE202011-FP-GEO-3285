@@ -86,19 +86,8 @@ Scanner input = new Scanner(System.in);
                      quotient = divisor / dividend;
                     System.out.println(" quotient --> " + quotient);
                     break;
-                    
+                                                      
                 case 5:
-                    double x = 0.0d;
-
-                    double fx = Math.exp(x);
-
-        
-                    double fxm1 = Math.expm1(x);
-
-                    System.out.println("fx   = " + fx);
-                    System.out.println("fxm1 = " + fxm1);
-                    
-                case 6:
                     System.out.println("Good Bye my friend");
                     System.exit(0);
                     break;
