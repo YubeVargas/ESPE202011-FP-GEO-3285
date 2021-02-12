@@ -23,7 +23,7 @@ public class WS12LIBRARIES {
         float exponent = 0.0F;
         float absoluteValue;
 
-        number = 9;  // squareRoot = ? -> 3
+        number = 9; 
         squareRoot = (float) Math.sqrt(number);
         System.out.println("the square root of -> " + number + " <- is -> " + squareRoot);
 
@@ -37,7 +37,7 @@ public class WS12LIBRARIES {
 
         base = 4.0F;
         exponent = 0.5F;
-        //power = 9 ?
+       
         power = (float) Math.pow(base, exponent);
         System.out.println(base + "^" + exponent + " = " + power);
 
@@ -46,21 +46,15 @@ public class WS12LIBRARIES {
 
         base = 2;
         exponent = 4;
-        //power = 16?
 
         base = 78;
         exponent = 5;
-        //calculator 78^5
-        //2.887.174.368
-
+        
         number = -5;
         absoluteValue = getAbsoluteValue(number);
         System.out.println("abs of ( " + number + " ) is -> " + absoluteValue);
 
-        //if we dont have the library, what would we do ?
-        // we should create the feature, the library
-        // our own algorithm to compute the square root.
-    }
+            }
 
     public static float computePower(float base, float exponent) {
         float power;
