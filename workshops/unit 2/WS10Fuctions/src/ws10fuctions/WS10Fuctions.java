@@ -21,7 +21,8 @@ public class WS10Fuctions {
         float quotient = 0;
         int x = 0;
         int y = 0;
-        
+        System.out.println("AUTHOR: YUBELLY ANAHI VARGAS CORDERO");
+
         quotient = divideTwoNumbers(divd, divr);
 
         System.out.println("Quotient of 5 and 10 is -> " + quotient); //0.5 or ?
@@ -31,19 +32,17 @@ public class WS10Fuctions {
 
         y = f(-3);
         System.out.println("-3^2 -> " + y); //9
-        
+
         x = -1;
         y = f(x);
         System.out.println("the square of -> " + x + " <- is equal to -> " + y);
 
     }
 
-    
     public static float divideTwoNumbers(int dividend, int divisor) {
-        
+
         float quotient = 0.0F;
 
-       
         quotient = (float) dividend / (float) divisor;
 
         return quotient;
