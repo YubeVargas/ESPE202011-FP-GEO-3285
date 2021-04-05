@@ -1,4 +1,1 @@
-tomy,M,dresses,Women,35.
-aeropostale,XS,pants,,21.0.
-Luis Vuitton,S,underwear,Women,30.0.
-gucci,XL,shirt,Mens,20
+tomy,M,dresses,Women,35.aeropostale,XS,pants,,21.0.Luis Vuitton,S,underwear,Women,30.0.gucci,XL,shirt,Mens,20

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[700, 710]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="34" max="32767" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="275" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="266" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="346" max="-2" attributes="0"/>
+              <EmptySpace pref="11" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane3" pref="0" max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="345" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BACK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="MANABI INFO"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="-Fundaci&#xf3;n: 25 de junio de 1824 (196 a&#xf1;os)&#xa;&#xa;-Capital: Portoviejo&#xa;&#xa;-Cantones:&#xa;      1) 24 de mayo&#xa;      2) Bol&#xed;var&#xa;      3) Chone&#xa;      4) El Carmen &#xa;      5) Flavio Alfaro&#xa;      6) Jama&#xa;      7) Jaramijo&#xa;      8) Jipijapa&#xa;      9) Jun&#xed;n&#xa;     10) Manta&#xa;     11) Montecristi&#xa;     12) Olmedo&#xa;     13) Paj&#xe1;n&#xa;     14) Pedernales&#xa;     15) Pichincha&#xa;     16) Portoviejo&#xa;     17) Puerto L&#xf3;pez&#xa;     18) Rocafuerte&#xa;     19) San Vicente&#xa;     20) Santa Ana&#xa;     21) Sucre&#xa;     22) Tosagua&#xa;&#xa;-Limites:&#xa;      a) Norte: Esmeraldas&#xa;      b) Sur: Santa Elena y Guayas&#xa;      c) Este: Santo Domingo, Los R&#xed;os y Guayas&#xa;      d) Oeste: Oc&#xe9;ano Pac&#xed;fico&#xa;&#xa;-Habitantes: 1&apos;562.079 personas&#xa;&#xa;-Hidrograf&#xed;a: &#xa;       &#x2022; El r&#xed;o Chone es el m&#xe1;s importante por su caudal, nace en las faldas occidentales de la cordillera de Balzar y desemboca en Bah&#xed;a de Car&#xe1;quez. &#xa;         Sus principales afluentes son: por la margen derecha los r&#xed;os Mosquito, Garrapata, San Lorenzo y por la margen izquierda: el Tosagua, con sus afluentes: Canuto y Calceta. &#xa;         La cuenca que riegan estos r&#xed;os es una de las m&#xe1;s importantes y f&#xe9;rtiles de la provincia. &#xa;       &#x2022; El r&#xed;o Portoviejo nace en las monta&#xf1;as de Paj&#xe1;n y Puca y desemboca en la bah&#xed;a de Charapot&#xf3; en un sitio tur&#xed;stico conocido como &quot;La Boca&quot;.&#xa;       &#x2022; El r&#xed;o Canoa nace en las monta&#xf1;as de ese nombre y recibe las aguas del Tabuchilla y el Muchacho. El R&#xed;o Cojim&#xed;es es importante debido a su caudal y adem&#xe1;s divide las Provincias de Manab&#xed; y Esmeraldas. &#xa;         Entre Canoa y San Vicente desemboca el r&#xed;o Brice&#xf1;o que es de poco caudal. &#xa;       &#x2022; El r&#xed;o Jama que nace en los cerros de su nombre y su principal tributario, el r&#xed;o Mariano.&#xa;&#xa;-Econom&#xed;a: &#xa;En la Provincia de Manab&#xed; la principal actividad econ&#xf3;mica es la agricultura, debido a que es l&#xed;der por poseer mayor superficie de labor agr&#xed;cola con 1,2 millones de hect&#xe1;reas, las cuales representan el 15.83 % a nivel nacional, &#xa;es as&#xed; como esta actividad es considerada el pilar fundamental para el desarrollo de la provincia.&#xa;&#xa;-Cultura:&#xa;El manabita tiene particularidades &#xfa;nicas, que se reflejan en sus festividades donde se mezclan lo religioso con lo pagano, herencia de pueblos europeos que se entrelazan con las costumbres de los abor&#xed;genes que habitaron esta f&#xe9;rtil tierra. &#xa;Fiestas como San Pedro, San Pablo y los famosos rodeos montubios, que tienen su origen en el herraje y doma de reses y potros en las haciendas, son muestras de la cultura t&#xed;pica manabita.&#xa;Manab&#xed; es una zona privilegiada para la arqueolog&#xed;a, aqu&#xed; se han efectuado importantes descubrimientos que han determinado la existencia de las primeras culturas del Ecuador. &#xa;Es una cultura fraguada en el tiempo y en el espacio de este territorio, identidad que genera pertenencia y orgullo de los aut&#xe9;nticos manabitas."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/provincias/y/capitales/bandera manabi.png"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="FLAG"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/provincias/y/capitales/escudo manabi.png"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="SHIELD"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

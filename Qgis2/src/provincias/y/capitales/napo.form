@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[647, 548]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="531" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="58" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="283" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="274" max="-2" attributes="0"/>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BACK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NAPO INFO"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="-Fundaci&#xf3;n: 10 de noviembre de 1959 (61 a&#xf1;os)&#xa;&#xa;-Capital: Tena&#xa;&#xa;-Cantones:&#xa;      1) Archidona&#xa;      2) Carlos Julio Arosemena Tola&#xa;      3) El Chaco&#xa;      4) Quijos&#xa;      5) Tena&#xa;&#xa;-Limites:&#xa;      a) Norte: Sucumb&#xed;os&#xa;      b) Sur: Pastaza&#xa;      c) Este: Orellana&#xa;      d) Oeste: Pichincha, Cotopaxi y Tungurahua&#xa;&#xa;-Habitantes: 133 705 personas&#xa;&#xa;-Hidrograf&#xed;a: &#xa;      &#x2022; Cuenca del Misahuall&#xed;: El r&#xed;o Misahuall&#xed; y sus afluentes nacen en la tercera cordillera. Forman el valle donde est&#xe1;n las ciudades de Tena y Archidona. &#xa;        El Misahuall&#xed; desemboca en el Napo a la altura de Puerto Misahuall&#xed;.&#xa;      &#x2022; Cuenca del Napo: El r&#xed;o Napo se forma de la uni&#xf3;n de los r&#xed;os Jatunyacu y Anzu que hacen en la cordillera oriental. El Anzu forma el valle donde se &#xa;        levanta el cant&#xf3;n Arosemena Tola.&#xa;      &#x2022; Cuenca del R&#xed;o Quijos: Donde el Quijos y sus afluentes que nacen en los Andes orientales toman iny El Chaco. Baeza es la ciudad m&#xe1;s antigua fundada &#xa;        por los espa&#xf1;oles en la provincia de Napo. El valle de Quijos es una zona rica en restos arqueol&#xf3;gicos; aguas termales, lagunas; cascadas, r&#xed;os de &#xa;        corriente r&#xe1;pida ideales para deportes de riesgo; su fauna y su flora.&#xa;&#xa;-Econom&#xed;a:&#xa;Las principales actividades econ&#xf3;micas de la regi&#xf3;n son la exploraci&#xf3;n, explotaci&#xf3;n, procesamiento y transporte de hidrocarburos y la producci&#xf3;n agropecuaria&#xa;y forestal. La producci&#xf3;n de hidrocarburos representa una proporci&#xf3;n muy importante del PIB de Napo y una parte sustancial del ingreso de divisas.&#xa;&#xa;-Cultura:&#xa;Los ind&#xed;genas son cazadores, pescadores y cultivadores y dedican una gran parte de su tiempo a la artesan&#xed;a y a los trabajos colectivos (mingas) para construir&#xa;habitaciones y piraguas. Los kichwas son igualmente buenos agricultores que cultivan la yuca, el banano, el cacao, el arroz, el ma&#xed;z, el caf&#xe9;, las jud&#xed;as."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/provincias/y/capitales/bandera y escudo napo.jpg"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="SHIELD                                    FLAG"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

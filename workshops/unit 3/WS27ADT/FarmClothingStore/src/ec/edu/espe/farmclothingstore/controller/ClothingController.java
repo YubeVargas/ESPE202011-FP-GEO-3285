@@ -23,7 +23,7 @@ public class ClothingController {
         public String read() {
 
         String data;
-        data = FileManager.read("clothings");
+        data = FileManager.read("clothings.csv");
         return data;
     }
     }

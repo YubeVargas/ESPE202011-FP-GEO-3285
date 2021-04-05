@@ -15,11 +15,10 @@ import java.io.IOException;
  * @author David V
  */
 public class FileManager {
-    
-    public static boolean createFile(String fileBrand){
+     public static boolean createFile(String fileName){
         boolean created = false;
         try {
-            java.io.File file = new java.io.File(fileBrand + ".txt");
+            java.io.File file = new java.io.File(fileName + ".txt");
             if (file.createNewFile()){
                 System.out.println("file was created");
                 
@@ -35,16 +34,16 @@ public class FileManager {
         return created;
     }
     
-    public static boolean save(String data, String fileBrand){
+    public static boolean save(String data, String fileName){
         boolean saved = false;
         
-        createFile(fileBrand);
+        createFile(fileName);
         
         try {
-            FileWriter ayWrite = new FileWriter(fileBrand + ".csv", true);
+            FileWriter ayWrite = new FileWriter(fileName + ".csv", true);
             ayWrite.write(System.getProperty("Line.separator") + data);
             ayWrite.close();
-            System.out.println("a new record of" + fileBrand + "was saved");
+            System.out.println("a new record of" + fileName + "was saved");
             saved = true;
             
             
@@ -58,7 +57,7 @@ public class FileManager {
     public static String read(String fileName) {
         fileName = null;
         String text = null;
-        String document = "C:\\Users\\David V\\Desktop\\Programacion Y\\ESPE202011-FP-GEO-3285\\workshops\\unit 3\\WS27ADT\\FarmClothingStore\\clothings.txt";
+        String document = "C:\\Users\\David V\\Desktop\\Programacion Y\\ESPE202011-FP-GEO-3285\\Exams\\Cinema theatre\\movie.txt";
         try ( BufferedReader textBr = new BufferedReader(new FileReader(document))) {
             while ((fileName = textBr.readLine()) != null) {
                 text = fileName;
@@ -71,6 +70,4 @@ public class FileManager {
     }
 
  }
-
-    
 

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[720, 700]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="41" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="322" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="576" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="155" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="187" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="309" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="305" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="182" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="44" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BACK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="GUAYAS INFO"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="-Fundaci&#xf3;n: 25 de julio de 1537 (483 a&#xf1;os)&#xa;&#xa;-Capital: Guayaquil&#xa;&#xa;-Cantones:&#xa;      1) Alfredo Baquerizo Moreno (Jujan)&#xa;      2) Balao&#xa;      3) Balzar &#xa;      4) Colimes&#xa;      5) Daule&#xa;      6) Dur&#xe1;n&#xa;      7) El Empalme&#xa;      8) El Triunfo&#xa;      9) General Antonio Elizalde (Bucay)&#xa;     10) General Villamil Playas&#xa;     11) Guayaquil &#xa;     12) Isidro Ayora&#xa;     13) Lomas de Sargentillo&#xa;     14) Marcelino Maridue&#xf1;a&#xa;     15) Milagro&#xa;     16) Naranjal&#xa;     17) Naranjito&#xa;     18) Nobol&#xa;     19) Palestina&#xa;     20) Pedro Carbo&#xa;     21) Salitre&#xa;     22) Samborond&#xf3;n&#xa;     23) Santa Luc&#xed;a&#xa;     24) Sim&#xf3;n Bol&#xed;var&#xa;     25) Yaguachi&#xa;&#xa;-Limites:&#xa;      a) Norte: Manab&#xed; y Los R&#xed;os&#xa;      b) Sur: El Oro y Golfo de Guayaquil&#xa;      c) Este: Los R&#xed;os, Bol&#xed;var, Chimborazo, Ca&#xf1;ar y Azuay&#xa;      d) Oeste: Manab&#xed;, Santa Elena y Oc&#xe9;ano Pac&#xed;fico&#xa;&#xa;-Habitantes: 4&#xb4;387.434 personas&#xa;&#xa;-Hidrograf&#xed;a:&#xa;       &#x2022; El r&#xed;o m&#xe1;s importante en la provincia es el Guayas, el cual es alimentado por la cuenca hidrogr&#xe1;fica m&#xe1;s grande del pa&#xed;s.&#xa;       &#x2022; Los principales afluentes son: el r&#xed;o Daule y el r&#xed;o Babahoyo. &#xa;       &#x2022; El r&#xed;o Guayas desemboca en el golfo de Guayaquil, en la cual se encuentra un archipi&#xe9;lago en la cual la isla Pun&#xe1; es la de mayor importancia. &#xa;       &#x2022; Otro cuerpo de agua de importancia es el estero Salado el cual se divide en varios ramales menores que atraviesan el cant&#xf3;n de Guayaquil. &#xa;       &#x2022; En el &#xe1;rea de Chong&#xf3;n tambi&#xe9;n se encuentra un &#xe1;rea de recreaci&#xf3;n denominado Parque Lago, que consiste en una represa que embalsa las &#xa;         aguas de los r&#xed;os Chong&#xf3;n y Perdido, como parte de la obra civil del trasvase de aguas desde el r&#xed;o Guayas hasta la pen&#xed;nsula de Santa Elena.&#xa;&#xa;-Econom&#xed;a:&#xa;La econom&#xed;a de la provincia se centra en la ciudad de Guayaquil, esto es debido a las exportaciones e importaciones de productos a diversas partes del mundo&#xa;a trav&#xe9;s del Puerto Mar&#xed;timo de esta ciudad. Otra de los ejes de la econom&#xed;a es el Aeropuerto Internacional Jos&#xe9; Joaqu&#xed;n de Olmedo, &#xa;inaugurado el 27 de julio de 2006.&#xa;&#xa;-Cultura:&#xa;Dentro de lo m&#xe1;s destacado de la cultura y tradiciones de la provincia del Guayas podemos mencionar:&#xa;Los Amor finos, las serenatas, los rodeos y adem&#xe1;s podemos mencionar adem&#xe1;s la gran fe del pueblo de la provincia del Guayas, &#xa;donde la Semana Santa es su m&#xe1;xima expresi&#xf3;n ya gran cantidad de fieles se hacen notar a trav&#xe9;s de sus diferentes costumbres."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/provincias/y/capitales/bandera guayas.png"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/provincias/y/capitales/escudo guayas.jpg"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="FLAG"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="SHIELD"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
